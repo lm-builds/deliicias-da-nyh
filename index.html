@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delícias da Nyh - Bolos Decorados</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="imagens-bolos/favico-logo.png" type="image/x-icon">
+</head>
+<body>
+
+    <header class="hero header-image">
+        <h1 class="sr-only">Delícias da Nyh - Bolos Decorados</h1>
+    </header>
+
+    <main>
+        <section id="valores" class="section dark-bg">
+            <h1>Clique e selecione os detalhes do seu pedido e confirme no final da página</h1>
+            <h2>Tabela de Valores</h2>
+            
+            <div class="table-container">
+                <div class="table-card">
+                    <h3>Bolos Redondos</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Tamanho (cm)</th>
+                                <th>Valor </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="js-selectable-item" data-category="Tamanho Bolo Redondo" data-item="20 x 10 | R$ 120,00">
+                                <td>20 x 10</td>
+                                <td>R$ 120,00</td>
+                            </tr>
+                            <tr class="js-selectable-item" data-category="Tamanho Bolo Redondo" data-item="25 x 10 | R$ 160,00">
+                                <td>25 x 10</td>
+                                <td>R$ 160,00</td>
+                            </tr>
+                            <tr class="js-selectable-item" data-category="Tamanho Bolo Redondo" data-item="30 x 10 | R$ 180,00">
+                                <td>30 x 10</td>
+                                <td>R$ 180,00</td>
+                            </tr>
+                            <tr class="js-selectable-item" data-category="Tamanho Bolo Redondo" data-item="35 x 10 | R$ 250,00">
+                                <td>35 x 10</td>
+                                <td>R$ 250,00</td>
+                            </tr>
+                            <tr class="js-selectable-item" data-category="Tamanho Bolo Redondo" data-item="Dois Andares | R$ 300,00">
+                                <td>Dois Andares</td>
+                                <td>R$ 300,00</td>
+                            </tr>
+                            <tr class="js-selectable-item" data-category="Tamanho Bolo Redondo" data-item="Três Andares | R$ 350,00">
+                                <td>Três Andares</td>
+                                <td>R$ 350,00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="table-card">
+                    <h3>Bolos Retangulares</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Tamanho (cm)</th>
+                                <th>Valor</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                             <tr class="js-selectable-item" data-category="Tamanho Bolo Retangular" data-item="20 x 10 | R$ 160,00">
+                                <td>20 x 10</td>
+                                <td>R$ 160,00</td>
+                            </tr>
+                            <tr class="js-selectable-item" data-category="Tamanho Bolo Retangular" data-item="25 x 10 | R$ 180,00">
+                                <td>25 x 10</td>
+                                <td>R$ 180,00</td>
+                            </tr>
+                            <tr class="js-selectable-item" data-category="Tamanho Bolo Retangular" data-item="30 x 10 | R$ 200,00">
+                                <td>30 x 10</td>
+                                <td>R$ 200,00</td>
+                            </tr>
+                            <tr class="js-selectable-item" data-category="Tamanho Bolo Retangular" data-item="35 x 10 | R$ 250,00">
+                                <td>35 x 10</td>
+                                <td>R$ 250,00</td>
+                            </tr>
+                            <tr class="js-selectable-item" data-category="Tamanho Bolo Retangular" data-item="40 x 10 | R$ 300,00">
+                                <td>40 x 10</td>
+                                <td>R$ 300,00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <p class="note">*Valores base. Adicionais de frutas e texturas, valores a parte.</p>
+        </section>
+
+        <section id="sabores" class="section dark-bg">
+            <h2>Nossas Massas e Recheios</h2>
+            <div class="sabores-container">
+                <div class="list-column">
+                    <h3>Massas Super Fofinhas</h3>
+                    <ul>
+                        <li class="js-selectable-item" data-category="Massa" data-item="Branca (tradicional)">Branca (tradicional)</li>
+                        <li class="js-selectable-item" data-category="Massa" data-item="Chocolate">Chocolate</li>
+                    </ul>
+                </div>
+                <div class="list-column">
+                    <h3>Recheios Deliciosos</h3>
+                    <ul>
+                         <li class="js-selectable-item" data-category="Recheio" data-item="Brigadeiro Tradicional">Brigadeiro Tradicional</li>
+                        <li class="js-selectable-item" data-category="Recheio" data-item="Brigadeiro Branco">Brigadeiro Branco</li>
+                        <li class="js-selectable-item" data-category="Recheio" data-item="Brigadeiro de Amendoim">Brigadeiro de Amendoim</li>
+                        <li class="js-selectable-item" data-category="Recheio" data-item="Doce de Leite">Doce de Leite</li>
+                        <li class="js-selectable-item" data-category="Recheio" data-item="Três Leites">Três Leites</li>
+                        <li class="js-selectable-item" data-category="Recheio" data-item="Creme de Leite Ninho">Creme de Leite Ninho</li>
+                        <li class="js-selectable-item" data-category="Recheio" data-item="Oreo">Oreo</li>
+                        <li class="js-selectable-item" data-category="Recheio" data-item="Creme Belga">Creme Belga</li>
+                        <li class="js-selectable-item" data-category="Recheio" data-item="Beijinho">Beijinho</li>
+                        <li class="js-selectable-item" data-category="Recheio" data-item="Mouse de Maracujá">Mouse de Maracujá</li>
+                        <li class="js-selectable-item" data-category="Recheio" data-item="Chocolate">Mousse de Chocolate</li>
+                        <li class="js-selectable-item" data-category="Recheio" data-item="Morango"> Mousse de Morango</li>
+                        <li class="js-selectable-item" data-category="Recheio" data-item="Abacaxi">Mousse de Abacaxi</li>
+                        <li class="js-selectable-item" data-category="Recheio" data-item="Limão">Mousse de Limão</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="salgados" class="section de salgados dark-bg">
+            <h2>Centro de Salgados</h2>
+            <div class="sabores-container">
+                
+                <div class="list-column-salgados list-column">
+                    <h3>Sabores dos Recheios</h3>
+                    <ul>
+                         <li class="js-selectable-item" data-category="Recheio Salgados" data-item="Frango">Frango</li>
+                        <li class="js-selectable-item" data-category="Recheio Salgados" data-item="Carne">Carne</li>
+                        <li class="js-selectable-item" data-category="Recheio Salgados" data-item="Queijo">Queijo</li>
+                        <li class="js-selectable-item" data-category="Recheio Salgados" data-item="Pizza">Pizza</li>
+                    </ul>
+                </div>
+            </div>
+                      <p class="note">**Valor do centro R$ 65,00</p>
+        </section>
+
+        <section id="brigadeiros" class="section de brigadeiros dark-bg">
+            <h2>Centro de Brigadeiros</h2>
+            <div class="sabores-container">
+                
+                <div class="list-column-brigadeiros list-column">
+                    <ul>
+                         <li class="js-selectable-item" data-category="Brigadeiro" data-item="Brigadeiro tradicional">Brigadeiro tradicional</li>
+                        <li class="js-selectable-item" data-category="Brigadeiro" data-item="Carne">Brigadeiro branco</li>
+                    </ul>
+                </div>
+            </div>
+                      <p class="note">**Valor do centro R$ 85,00. Dependendo da cobertura do brigadeiro o valor poderá ser alterado!</p>
+        </section>
+
+        <section id="bolos" class="section dark-bg">
+            <h2>Alguns Dos Nossos Bolos</h2>
+            <div class="galeria">
+                <div class="bolo-card">
+                    <img src="imagens-bolos/bolo-flamengo.png" alt="Bolo de Aniversário com Rosas Cor-de-Rosa">
+                    <p class="image-caption">Bolo de Aniversário</p>
+                </div>
+                <div class="bolo-card">
+                    <img src="imagens-bolos/bolo-azul-casamento.jpg" alt="Bolo de Casamento de Três Andares em Degradê Azul">
+                    <p class="image-caption">Bolo de Casamento</p>
+                </div>
+                <div class="bolo-card">
+                    <img src="imagens-bolos/bolo-safari-cortina.png" alt="Bolo Infantil de Princesa com nome Helena">
+                    <p class="image-caption">Bolo Infantil</p>
+                </div>
+                <div class="bolo-card">
+                    <img src="imagens-bolos/bolo-rosa-2.jpg" alt="Bolo Temático Fazendinha do Arthur">
+                    <p class="image-caption">Bolo Temático</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre" class="section dark-bg">
+            <h2>Sobre A Empreendedora</h2>
+            <div class="bio-content">
+                <p>
+                    Olá! Sou a Nilma Moura, e a "Delícias da Nyh" nasceu da paixão por transformar ingredientes em momentos inesquecíveis. Cada bolo é feito artesanalmente, com a dedicação e o carinho que a sua celebração merece.
+                </p>
+                <p>
+                    Fazer bolos é mais que um trabalho, é uma forma de compartilhar alegria. Conte comigo para adoçar a sua festa!
+                </p>
+
+            </div>
+        </section>
+        
+        <section id="encomenda" class="section form-section dark-bg">
+            <h2>Faça sua Encomenda</h2>
+             <div id="resumo-pedido" class="resumo-pedido ">
+                <h3>Resumo do seu Pedido</h3>
+                <p id="resumo-texto">Nenhum item de menu selecionado ainda. Clique nos itens nas seções acima para começar!</p>
+            </div>
+
+            <form id="whatsapp-form">
+                <div class="form-group">
+                    <label for="nome">Seu Nome Completo:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="telefone">Seu Telefone (WhatsApp):</label>
+                    <input type="tel" id="telefone" name="telefone" required>
+                </div>
+                <div class="form-group">
+                    <label for="data">Data do Evento (prevista):</label>
+                    <input type="date" id="data" name="data" required>
+                </div>
+                <div class="form-group">
+                    <label for="detalhes">Detalhes Adicionais (Observações, Endereço, etc.):</label>
+                    <textarea id="detalhes" name="detalhes" rows="5"></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Enviar Pedido via WhatsApp</button>
+            </form>
+            <p class="form-note">Você será redirecionado(a) para o WhatsApp da Nyh com as informações do seu pedido.</p>
+        </section>
+    </main>
+
+    <footer class="footer-fixed">
+        <span>&copy;Delícias da Nyh, Bolos Decorados</span>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
